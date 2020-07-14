@@ -2,7 +2,9 @@
  .dropdown-toggle::after {
     display: none;
 }
-
+.navbar-toggler{
+    display: none;
+}
 .nav-link{
     font-style: normal;
 font-weight: 300;
@@ -16,7 +18,7 @@ font-size: 15px;
 
 /* content 1 */
 .content-satu{
-    background-image: url('/img/bg-head.png');
+    background-image: url('../img/bg-head.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
@@ -158,9 +160,32 @@ font-size: 15px;
 /* last content 2 */
 
 /* content 3 */
+.badge-pill{
+    border-radius: 100%;
+    padding: 15px 15px;;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: -25px;
+}
+
+.text-badge{
+    margin-top: 20px;
+}
+
+.btn-card{
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all .3s;
+   width: 13rem;
+   height: 13rem;
+}
+.btn-card:hover{
+    background-color: #FDBF1E !important;
+    margin-top: -5px;
+}
 .content-tiga{
     margin-top: 0px;
-    background-image: url('/img/bg-layanan-mahe.png');
+    background-image: url('../img/bg-layanan-mahe.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 650px;
@@ -291,8 +316,4 @@ font-size: 15px;
     color: #FFFFFF;
     margin-bottom: -20px;
     }
-
-.footer .p .span > a{
-    text-decoration: none;
-}
 /* last content 7 */
